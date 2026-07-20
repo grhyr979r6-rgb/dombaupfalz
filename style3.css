@@ -1,0 +1,334 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, sans-serif;
+    color:rgb(86 78 69);
+    background:white;
+    font-size: 16px;
+}
+
+.navigation{ 
+    a {
+        text-decoration:none;
+        color:currentColor;
+    }
+
+}
+
+
+
+header{
+
+    padding:20px 25px;
+    border-bottom:1.5px solid rgb(86 78 69);
+    font-size: 16px;
+
+}
+
+
+.kopfzeile{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    font-size: 16px;
+
+}
+
+
+.logo{
+
+    display:flex;
+    align-items:flex-end;
+
+}
+
+
+.firmenname{
+
+    a {
+        text-decoration:none;
+        color:currentColor;
+        hover {
+            color:rgb(86 78 69 / 0.6);
+        }
+    }
+    margin-left:15px;
+    text-decoration:none;
+    color:currentColor;
+    font-size:16px; 
+
+}
+
+
+
+nav ul{
+
+    list-style:none;
+    display:flex;
+    gap:60px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+    color:currentColor;
+    font-size:16px;
+
+}
+
+nav a:hover{
+
+    color:rgb(86 78 69 / 0.6);
+
+}
+
+
+.startseite{
+
+    display: flex;
+    padding-left: 3px;
+
+}
+
+.seitentitel{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+.aktuelles{
+
+    display: flex;
+    padding-left: 3px;
+
+}
+
+.aktuelles-text{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+.ueber-uns{
+
+    display: flex;
+    padding-left: 3px;
+
+}
+
+.ueber-uns-text{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+    box-sizing: border-box;
+        width: 800px;
+
+
+}
+
+h1{
+
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h3{
+
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 1.0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+h4{
+
+    font-size: 16px;
+    font-style:italic;
+    font-weight: normal;
+    line-height: 1.0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+ .dubbi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3px;
+    margin-right: 70px;
+    vorstellung{
+        box-sizing: border-box;
+        width: 1100px;
+    }
+ }
+
+
+.traubi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7px;
+    margin-right: 70px;
+    vorstellung{
+        box-sizing: border-box;
+        width: 1100px;
+    }
+}
+
+.vino{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7px;
+    margin-right: 70px;
+    vorstellung{
+        box-sizing: border-box;
+        width: 1100px;
+    }    
+
+}
+
+.portrait{
+    margin-right: 80px;
+}
+
+.projekte{
+
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+        width: 800px;
+
+}
+
+
+.mainz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+     a{
+        text-decoration: none;
+        color: rgb(86 78 69)
+        
+    }
+    a:hover img {
+  opacity: 0.6;
+}
+a:hover{
+        color:rgb(86 78 69 / 0.6)
+    }
+   
+}
+    
+
+.worms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    padding-left:20px;
+    a{
+        text-decoration: none;
+        color: rgb(86 78 69)
+    }
+    a:hover img {
+  opacity: 0.6;
+}
+a:hover{
+        color:rgb(86 78 69 / 0.6)
+    }
+}
+
+.speyer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    a{
+        text-decoration: none;
+        color: rgb(86 78 69)
+    }
+    a:hover img {
+  opacity: 0.6;
+    }
+    a:hover{
+        color:rgb(86 78 69 / 0.6)
+    }
+}
+
+
+.kontakt{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 15px;
+
+}
+
+.fusszeile{
+    padding:20px 25px;
+    border-top:1.5px solid rgb(86 78 69);
+    font-size: 16px;
+
+    a{
+        text-decoration: none;
+        color: currentColor
+    }
+    a:hover{
+        color:rgb(86 78 69 / 0.6)
+    }
+}
+
+.hund{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.navigation2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:start;
+
+}
+
+footer{
+    margin-top: 200px;
+}
